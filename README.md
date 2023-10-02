@@ -34,3 +34,12 @@ This assignment focuses on MySQL, and exploring its implementation on leading cl
 - I have to move into the correct database
 ```use w4_assignments;```
 - The table names "doctors" and "patients" were created using [Professor Hants' code](https://github.com/hantswilliams/HHA_504_2023/blob/main/WK4/code/1_n_create.sql), but were slightly modified. Two other tables named "visits" and "appointments were created following the same format as the codes from doctors and patients. These tables include the column names (patient_id), data types (INT, VARCHAR(30)), and constraints (NOT NULL). The foreign key constraints for the table "doctor" was also established. The script can be found [Azure](https://github.com/hal-yu/mysql_cloudmanaged_databases/blob/main/Azure/ERD.sql) and [GCP](https://github.com/hal-yu/mysql_cloudmanaged_databases/blob/main/GCP/ERD.sql).
+- To create the ERD, click on "database" at the top and select "reverse engeineer" and finish up the steps for the diagram.
+
+# Errors
+- One of the errors I encountered was after creating a table, when I went back to fix it, I can't just update it however I wanted. I had to use a specific code
+```
+ALTER TABLE [table name]
+[include what was altered]
+```
+- Another error I encountered was when I inserted the "patients" table before the "doctors," there was an error because it couldn't open up the table since the "patient" table used a column from the "doctors" table as a foreign key. 
