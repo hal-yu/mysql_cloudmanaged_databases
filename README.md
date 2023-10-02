@@ -24,5 +24,5 @@ This assignment focuses on MySQL, and exploring its implementation on leading cl
 1. Open up MySQL Workbench and click on the "+" button
 2. Insert a connection name
 3. Follow the steps under Azure to establish a connection.
-![Azure Instructions]([https://imgur.com/aO7vezg](https://imgur.com/a/FuJrmFQ))
+![Azure Instructions](https://imgur.com/a/FuJrmFQ))
 4. If there is a successful connection, then click on the "ok" button. You should see it under "My SQL Connections" in your workbench. Double click to open up the connection. 
