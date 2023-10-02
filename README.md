@@ -26,3 +26,11 @@ This assignment focuses on MySQL, and exploring its implementation on leading cl
 3. Follow the steps under Azure to establish a connection.
 ![Azure Instructions](https://imgur.com/a/FuJrmFQ)
 4. If there is a successful connection, then click on the "ok" button. You should see it under "My SQL Connections" in your workbench. Double click to open up the connection. 
+
+# Creating ERD
+- For the ERD, it was necessary to create new tables. These tables followed the format of the ones from the sample.
+- First, a new database was created under the name "w4_assignments."
+  ```Create database w4_assignments;```
+- I have to move into the correct database
+```use w4_assignments;```
+- The table names "doctors" and "patients" were created using ![Professor Hants' code](https://github.com/hantswilliams/HHA_504_2023/blob/main/WK4/code/1_n_create.sql), but were slightly modified. Two other tables named "visits" and "appointments were created following the same format as the codes from doctors and patients. These tables include the column names (patient_id), data types (INT, VARCHAR(30)), and constraints (NOT NULL). The foreign key constraints for the table "doctor" was also established. The script can be found ![Azure](https://github.com/hal-yu/mysql_cloudmanaged_databases/blob/main/Azure/ERD.sql) and ![GCP](https://github.com/hal-yu/mysql_cloudmanaged_databases/blob/main/GCP/ERD.sql).
